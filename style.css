@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dooz {
+  width: 30rem;
+  height: 30rem;
+  background-color: #14bdac;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.unit {
+  width: 10rem;
+  height: 10rem;
+  border: 0.5rem solid #0da192;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
